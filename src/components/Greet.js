@@ -1,7 +1,11 @@
 import React from 'react'
 
-function Greet(){
-    return <h1>Hello James Bohmbach</h1>
-}
+const Greet = () => <h1>Hello James B.</h1>
+
+// The above 'arror' function replaces the syntax below:
+
+// function Greet(){
+//     return <h1>Hello James Bohmbach</h1>
+// }
 
 export default Greet
