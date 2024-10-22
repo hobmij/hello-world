@@ -1,20 +1,21 @@
-import React from 'react'
+import React from 'react' // import brings in JSX
 
 
 const Hello = () => {
     // This is JSX, looks like HTML
-/*     return(
+     return(
         <div>
             <h1> Hello from Hello.js</h1>
         </div>
     )
- */    
+   
     // Here is what things look like without JSX
-    return React.createElement(
+/*     return React.createElement(
         'div',
         {id: 'hello', className: 'dummyClass'},
         React.createElement('h1', null, 'Hello Sun')
-    )
+    ) 
+*/
 }
 
 export default Hello
