@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Greet = () => <h1>Hello MyComponent</h1>
+const Greet = () => <h1>Hello MyComponent</h1>
 
 // The above 'arror' function replaces the syntax below:
 
@@ -8,4 +8,4 @@ export const Greet = () => <h1>Hello MyComponent</h1>
 //     return <h1>Hello James Bohmbach</h1>
 // }
 
-//export default Greet
+export default Greet
