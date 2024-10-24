@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 class Message extends Component {
     /* Demonstrates State:
-       1: Object that is privatly maintained in an object
+       1: Data that is privatly maintained in an object
        2: Can be modified within the Component
        3: Can influence what is on the screen
        */
